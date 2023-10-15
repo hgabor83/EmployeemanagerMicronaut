@@ -42,7 +42,7 @@ jobs:
       - name: Get the artifact
         uses: actions/download-artifact@master
         with:
-          name: backend-social-network
+          name: EmployeeManagerMicronaut
 
       - name: Fake deploy
         run: ls EmployeeManagerMicronaut-*.jar
